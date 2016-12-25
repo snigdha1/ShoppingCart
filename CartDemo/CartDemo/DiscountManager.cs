@@ -17,6 +17,8 @@ namespace CartDemo
         }
         public double ApplyDiscount(string name, int numberOfItems, double price)
         {
+
+            //apply discount offer based on the item in the cart
             switch (name)
             {
                 case "Apples":

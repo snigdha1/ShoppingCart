@@ -9,6 +9,7 @@ namespace CartDemo
     {
         static void Main(string[] args)
         {
+            //Test demo with sample data
             CheckOutManager obj = new CheckOutManager();
             Console.WriteLine(obj.CheckOut(new List<string> { "Apples" }));
             Console.WriteLine(obj.CheckOut(new List<string> { "Apples", "Apples" }));
