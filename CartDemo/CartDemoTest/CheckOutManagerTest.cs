@@ -24,6 +24,7 @@ namespace CartDemoTest
             Assert.AreEqual(0.45, checkoutManager.CheckOut(new List<string> { "Apples", "Apples" }));
             Assert.AreEqual(0.9, checkoutManager.CheckOut(new List<string> { "Apples", "Apples", "Apples" }));
             Assert.AreEqual(1.1, checkoutManager.CheckOut(new List<string> { "Apples", "Apples", "Oranges"}));
+            Assert.AreEqual(1.3, checkoutManager.CheckOut(new List<string> { "Oranges", "Oranges", "Oranges" }));
             Assert.AreEqual(0, checkoutManager.CheckOut(new List<string> { "Grapes" }));
 
         }
